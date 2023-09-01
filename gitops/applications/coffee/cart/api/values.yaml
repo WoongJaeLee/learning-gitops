@@ -4,8 +4,8 @@ service:
     port: 8080
     exposed: true
 image:
-  repository: ghcr.io/peppydays/coffee/cart/api
-  tag: rc-d1d8492
+  repository: ghcr.io/woongjaelee/coffee/cart/api
+  tag: latest
   pullPolicy: IfNotPresent
 env:
   - name: TZ
